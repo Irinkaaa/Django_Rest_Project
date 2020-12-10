@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'books_api',
+    'books',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',

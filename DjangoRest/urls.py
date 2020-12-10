@@ -5,4 +5,5 @@ urlpatterns = [
     path('api/', include('books_api.urls')),
     # path('api/', include('rest_framework.urls')),
     path('admin/', admin.site.urls),
+    path('books/', include('books.urls')),
 ]
